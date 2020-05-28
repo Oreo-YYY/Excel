@@ -59,7 +59,7 @@ public class StuServiceImpl implements StuService {
                 String name = row.getCell(2).getStringCellValue();
                 String className = row.getCell(3).getStringCellValue();
                 String note = row.getCell(4).getStringCellValue();
-                student.setId(Integer.parseInt(id));
+                student.setNo(Integer.parseInt(id));
                 student.setId(Integer.parseInt(Stuid));
                 student.setName(name);
                 student.setClassName(className);

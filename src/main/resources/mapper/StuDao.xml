@@ -13,8 +13,8 @@
 
     <!--新增所有列-->
     <insert id="add" keyProperty="id" useGeneratedKeys="true">
-        insert into excel.stu(no, name, className, remark)
-        values (#{no}, #{name}, #{className}, #{remark})
+        insert into excel.stu(no, id, name, className, remark)
+        values (#{no}, #{id}, #{name}, #{className}, #{remark})
     </insert>
 
 
